@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flavortown Demo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .card {
+            background: white;
+            padding: 40px;
+            max-width: 480px;
+            text-align: center;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            margin-bottom: 10px;
+        }
+
+        p {
+            color: #555;
+            font-size: 16px;
+        }
+
+        a.button {
+            display: inline-block;
+            margin-top: 25px;
+            padding: 14px 28px;
+            background: #0066ff;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: background 0.2s ease;
+        }
+
+        a.button:hover {
+            background: #004ecc;
+        }
+
+        .note {
+            margin-top: 20px;
+            font-size: 13px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <h1>Flavortown Demo</h1>
+    <p>
+        This is a demo access page for the RIASEC Career Interest Assessment.
+        Click below to launch the full interactive experience.
+    </p>
+
+    <a class="button" href="https://riasec-form.streamlit.app" target="_blank">
+        Launch Demo
+    </a>
+
+    <div class="note">
+        If the app does not open, please ensure pop-ups are allowed.
+    </div>
+</div>
+
+</body>
+</html>
